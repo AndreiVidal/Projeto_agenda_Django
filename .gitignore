@@ -1,3 +1,7 @@
+# Vs Code
+.vscode/*
+!.vscode/launch.json
+
 # Django #
 *.log
 *.pot
