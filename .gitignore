@@ -1,5 +1,5 @@
 # Vs Code
-.vscode
+.vscode/
 .vscode/*
 !.vscode/launch.json
 
@@ -10,6 +10,8 @@
 __pycache__
 db.sqlite3
 media
+static/
+media/
 
 # Backup files # 
 *.bak 
