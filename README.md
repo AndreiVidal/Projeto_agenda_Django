@@ -1,3 +1,48 @@
+# Django Contact Agenda Project
+
+This is an ongoing project created for the purpose of studying and improving Django, with the goal of building a contact agenda application.
+
+## Description
+
+The Django Contact Agenda Project is a web application that allows users to store, view, and manage a list of contacts. The application provides features to add new contacts, edit existing information, and delete contacts.
+
+## Planned Features
+
+- User registration
+- User authentication
+- Adding, editing, and deleting contacts
+- Viewing contact lists
+- Contact search
+- Filtering by categories
+
+## Contributing
+
+This project is under development and open to contributions. If you wish to contribute to the project, feel free to submit pull requests with improvements, bug fixes, or new features. All contributions are welcome!
+
+## Installation
+
+1. Make sure you have Python and Django installed on your machine.
+2. Clone this repository: `git clone https://github.com/AndreiVidal/Projeto_agenda_Django.git`
+3. Navigate to the project directory: `cd Projeto_agenda_Django`
+4. Create and activate a virtual environment (optional but recommended):
+   - Creation: `python -m venv venv`
+   - Activation (Windows): `venv\Scripts\activate`
+   - Activation (Linux/Mac): `source venv/bin/activate`
+5. Install the dependencies: `pip install -r requirements.txt`
+6. Run the database migrations: `python manage.py migrate`
+7. Start the development server: `python manage.py runserver`
+8. Access the application in your browser at `http://localhost:8000`
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+### Tradução Pt-BR
+
+---
+
 # Projeto Agenda de Contatos Django
 
 Este é um projeto em desenvolvimento criado para fins de estudos e aperfeiçoamento em Django, com o objetivo de construir uma aplicação de agenda de contatos.
