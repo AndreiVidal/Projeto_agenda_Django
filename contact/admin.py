@@ -1,5 +1,5 @@
 from django.contrib import admin
-from contact.models import Contact
+from contact.models import Contact, Category
 
 
 # Register your models here.
@@ -10,6 +10,7 @@ class ContactAdimin(admin.ModelAdmin):
         "first_name",
         "last_name",
         "phone",
+        "category",
     )
     ordering = ("-id",)
     # list_filter = 'created_date',
@@ -28,3 +29,9 @@ class ContactAdimin(admin.ModelAdmin):
         "id",
         "first_name",
     )
+
+
+@admin.register(Category)
+class CategoryAdimin(admin.ModelAdmin):
+    list_display = ("name",)
+    ordering = ("-id",)
