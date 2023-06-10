@@ -4,6 +4,7 @@
 !.vscode/launch.json
 
 # Django #
+Project/local_settings.py
 *.log
 *.pot
 *.pyc
