@@ -11,6 +11,8 @@ class ContactAdimin(admin.ModelAdmin):
         "last_name",
         "phone",
         "category",
+        "email",
+        "show"
     )
     ordering = ("-id",)
     # list_filter = 'created_date',
